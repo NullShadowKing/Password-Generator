@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <article class="container">
+      <h1>Password Generator</h1>
+      <div class="passcontainer">
+        <h2 id="passHolder">Password</h2>
+        <img class="lockIcon" src="Lock.png" alt="Lock Icon" />
+      </div>
+      <article class="optionsContainer">
+        <button id="PassGenBtn" class="btn">Generate Password</button>
+        <article class="passlengthContainer">
+          <button class="amountBtn" id="minesBtn">-</button>
+          <p id="passLength" class="passLengthText">8</p>
+          <button class="amountBtn" id="plusBtn">+</button>
+        </article>
+      </article>
+
+      <article class="copyContainer">
+        <button class="copyBtn" id="copyToClipBoard">Copy to ClipBoard</button>
+        <img class="imgcopy" src="Copy-White.png" alt="" />
+      </article>
+    </article>
+  </body>
+</html>

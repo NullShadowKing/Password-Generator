@@ -1,0 +1,155 @@
+* *::after *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #161b28;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 3rem;
+  outline: none;
+  border: none;
+  background: #ededed;
+  box-shadow: 5px 5px 10px #c9c9c9, -5px -5px 10px #ffffff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.passcontainer {
+  width: 30rem;
+  height: 5.5rem;
+  display: grid;
+  grid-template-columns: 26rem 4rem;
+  align-items: center;
+  justify-items: start;
+  border-radius: 1rem;
+  background: #ededed;
+  box-shadow: 7px 7px 14px #d5d5d5, -7px -7px 14px #ffffff;
+  padding-left: 1.5rem;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.lockIcon {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-left: -0.5rem;
+}
+
+.optionsContainer {
+  width: 26rem;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  width: 14rem;
+  height: 3.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: rgba(220, 20, 60, 1);
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0 0 4px rgba(220, 20, 60, 0.4);
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.passlengthContainer {
+  width: 10rem;
+  height: 3.5rem;
+  margin-left: 2.5rem;
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 3rem 3rem 3rem;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.amountBtn {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.copyContainer {
+  width: 26rem;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.copyBtn {
+  width: 26rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  background-color: rgba(54, 190, 126, 0.7);
+  opacity: 1;
+  color: white;
+  border-radius: 0.5rem;
+  transition: background 0.4s;
+}
+
+.copyBtn:hover {
+  background-color: rgba(54, 190, 126, 1);
+}
+
+.imgcopy {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  margin-left: -5rem;
+  opacity: 1;
+}

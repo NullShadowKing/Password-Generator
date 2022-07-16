@@ -1,0 +1,6 @@
+this project is a simple JavaScript Password Generator that can Generator passwords for you
+Passwords are Containt : 
+1. LowerCase
+2. UpperCase
+3. Numbers
+4. Symbols 
